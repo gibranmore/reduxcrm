@@ -1,0 +1,699 @@
+/*!
+* Start Bootstrap - Business Casual Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.
+*/
+ 
+ 
+ 
+.input-group
+{
+  position:relative;
+  left:23px;
+  top:30px;
+ 
+}
+ 
+ 
+body{padding-top:20px;}
+ 
+ 
+ 
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+ 
+    background: #DCDCDC;
+ 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "Carme", "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+ 
+h1 {
+    font-family: Carme;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+}
+h3 {
+    font-family: Carme;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+}
+p {
+    font-family: Carme;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+blockquote {
+    font-family: Carme;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+pre {
+    font-family: Carme;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+hr {
+    max-width: 400px;
+    border-color: #337ab7;
+}
+@font-face {
+   font-family: 'Circo';
+                     
+   src: url("../fonts/Circo.ttf");
+}
+ 
+.imgbor{
+   border:5px solid green;
+}
+ 
+.brand,
+.address-bar {
+    display: none;
+}
+ 
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+ 
+.navbar-nav {
+    color: white;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+ 
+.img-full {
+    min-width: 100%;
+}
+ 
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+ 
+.brand-before {
+    margin: 15px 0;
+}
+ 
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+ 
+.tagline-divider {
+    margin: 15px auto 3px;
+    max-width: 250px;
+    border-color: #999999;
+}
+ 
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    width: 85%;
+}
+
+.box.boxpad{
+    margin-top: 100px;
+}
+ 
+.intro-text {
+    text-transform: uppercase;
+        font-size: 1.6em;
+        font-weight: 560;
+        letter-spacing: 1px;
+        color: #eef1f3;
+}
+ 
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+ 
+.img-left {
+    float: none;
+    margin: 0 auto 0;
+}
+
+ .reduxBrand {
+      margin: 0;
+        text-align: center;
+        
+    }
+
+    .reduxBrand h1{
+
+     
+        font-family: "Circo","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 4em;
+        font-weight: 600;
+        padding-bottom: 40px;
+        color: #fff;
+        letter-spacing: 2px;
+        color: #fff;
+    }
+    .reduxBrand span{
+        color: #000;
+    }
+    .clientresults {
+        border-top: 2px solid #337ab7 ;
+    }
+    .clientresults div#divContainer {
+        max-width: 100%;
+        background: #2d2a2a;
+        border-radius: 0px;
+        font-family:  "Helvetica Neue", Helvetica,Arial,sans-serif;
+        padding-top: 0.5em;
+        padding-bottom: 1em;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .clientresults div#divContainer h1{
+       /*color: #337ab7; */
+    }
+    .clientresults  table.formatHTML5 {
+        color: #fff;
+        font-size: 1.05em;
+    }
+    
+    .clientresults  table.formatHTML5 thead tr th {
+        font-weight: 200;
+        font-size: 1.05em;
+        line-height: 1.0;
+
+    }
+    .clientresults  table.formatHTML5  tbody {
+        letter-spacing: 1px;
+        font-weight: 120;
+         font-size: 1.2em;
+    }
+    .clientresults  table.formatHTML5  tbody tr:nth-child(odd) {
+         background-color: #2d2a2a;
+    }
+    .clientresults table.formatHTML5  tbody tr:nth-child(even) {
+        background-color: #383a40;
+    }
+
+    /***********************************************/
+
+     .button {
+            background-color: #337ab7;
+            border: none;
+            color: #337ab7;
+            padding: 12px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 19px;
+            margin: 4px 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 28%;
+        }
+        .button5 {
+            background-color: white;
+            color: #337ab7;
+            border: 3px solid #337ab7;
+            font-weight: 600;
+        }
+
+        .button5:hover {
+            background-color: #337ab7;
+            color: white;
+            text-decoration: none;
+        }
+
+        .buttonx {
+            background-color: #7abaff;
+            border-color: #7abaff;
+            color: #fff;
+            padding: 14px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 14px 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 4px;
+            width: 24%;
+        }
+        .button6 {
+            background-color: #7abaff;
+         
+            color: #fff;
+            
+            font-weight: 400;
+        }
+
+        .button6:hover {
+            background-color: #474747;
+            border: 1px solid #7abaff;
+
+        }
+        .button6:hover {
+            background-color: #474747;
+            border: 1px solid #7abaff;
+
+        }
+        
+        /**************************/
+        .pagin {
+            background: #7abaff;
+            padding: 24px 46px;
+        }
+        .cust-pagination {
+            background: #2d2a2a;
+           text-align: center;
+           padding-bottom: 3em;
+        }
+        
+
+ 
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+ 
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+ 
+@media screen and (min-width:768px) {
+    .brand h1 {
+        display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Circo","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 4em;
+        font-weight: 600;
+        line-height: normal;
+        color: #fff;
+        letter-spacing: 4px;
+    }
+    
+
+
+ 
+    .top-divider {
+        margin-top: 0;
+    }
+ 
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+ 
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 4px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.05em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #f1f1f1;
+        background: #343434;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+
+        border-top: 2px solid #337ab7;
+    }
+    .activex {
+        background-color: #343434;
+        border-bottom: 2px solid #337ab7;
+        
+    }
+    .navbar-default .navbar-nav>li.activex>a {
+        color: #F8F8F8;
+    }   
+    .navbar {
+        border-radius: 0;
+    }
+ 
+    .navbar-header {
+        display: none;
+    }
+ 
+    .navbar {
+        min-height: 0;
+          
+    }
+ 
+    .navbar-default {
+        border: none;
+        background-color: #5f5f5f;
+        color: #f1f1f1;
+        
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #F8F8F8;
+        font-weight: 300;
+    }
+ 
+    .nav>li>a {
+        padding: 30px;
+    }
+ 
+    .navbar-nav>li>a {
+        color: #303030;
+        line-height: normal;
+        -webkit-transition-duration:0.2s;
+    }
+ 
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.20em;
+    }
+    .navbar-default .navbar-nav>li:hover{
+        background: #343434;
+        /*border-bottom: 3px solid #337ab7; */
+
+    }
+    .navbar-default .navbar-nav>li:hover a{
+        /*
+        color: #f1f1f1;
+        -ms-transform:translateY(-2px); 
+        -webkit-transform:translateY(-2px); 
+        */
+        color: #F8F8F8; /* Force stay the same */
+    }
+    .textinput .inerror {
+        position: absolute;
+        top: 0;
+        left: 740px;
+        color: #efb183;
+        font-weight: 300;
+        text-align: center;
+        font-size: 0.75em;
+    }
+     .srchorders .textinput .inerror {
+        position: absolute;
+        left: 890px;
+    }
+    div.formerror{
+        height: 70px;
+        color: #efb183;
+        font-weight: 300;
+        text-align: center;
+        font-size: 1.5em;
+        line-height: 1.0;
+    }
+
+    #attaboy {
+       color: #7abaff;
+
+    }
+    .addclient .bootstrap4 .btn{
+        font-size: 1.3em;
+        padding: 0.4em 4.4em;
+        background-color: #343434;
+        border-color: #343434;
+    }
+    .srchorders #myForm span{
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: 150;
+    }
+
+    .searchclient .btn.cool, .addclient .btn.cool, .srchorders .btn.cool {
+         font-size: 1.5em;
+       padding: 0.6em 4.4em;
+       /*
+        background-color: #7abaff;
+        */
+        /*
+        background-color: #4391e6;
+        */
+        background-color: transparent;
+        border-color: #7abaff;
+        font-weight: 300;
+        letter-spacing: 1px;
+        border-radius: 4px;
+    }
+
+
+    .searchclient .btn.cool:hover, 
+    .addclient .btn.cool:hover, 
+    .srchorders .btn.cool:hover {
+        background-color: #474747;
+    }
+    .addclient .bootstrap4 .btn:hover{
+        background-color: #474747;
+    }
+    .addclient .bootstrap4 .show > .btn-primary.dropdown-toggle {
+        background-color: #474747;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+    }
+    .addclient .bootstrap4 .dropdown-menu {
+        min-width: 24.5rem;
+        text-align: center;
+    }
+    .addclient .bootstrap4 .dropdown-menu .dropdown-item {
+       font-size: 1.6em;
+       padding: 0.55rem 1.4rem;
+    }
+    .addclient .gender .bootstrap4 .form-control{
+        font-size: 1.9rem;
+        text-align: center;
+        background-color: #19191924;
+    }
+
+    .align{
+        text-align: center;
+    }
+    .addclient .textinput .row.int .checkoption{
+        display: inline;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+    .interest .align label{
+        font-weight: 550;
+        letter-spacing: 1px;
+
+    }
+    .addclient .searchbtn{
+        padding-top: 55px;
+    }
+    .aligncenter{
+        text-align: center;
+       
+    }
+    .textinput .row.int .aligncenter label {
+        color: #efeeee;
+        font-weight: 300;
+    }
+    .containersub {
+        background: #5f5f5f;
+        text-align: center;
+    }
+    .boxy {
+          margin-bottom: 20px;
+        padding: 30px 15px;
+        background: #343434;
+        width: 100%;
+        border-radius: 6px;
+        border-top: 2px solid  #348cd0;
+    }
+    /*
+    blue:   #7abaff;
+
+    */
+
+    .addclient{
+        margin: auto;
+    }
+    .navbar.navbar-default {
+        margin-bottom: 85px;
+    }
+    .bordertop {
+        background-color: #5f5f5f;
+        border-radius: 4px;
+        height: 25px;
+        border-top: 2px solid #337ab7;
+    }
+    .searchclient {
+        margin: auto;
+    }
+    .searchclient .btn-primary {
+        background-color:  transparent;
+        border-color:  #7abaff;
+    }
+
+    form#target {
+        padding-top: 40px;
+        width: 70%;
+        margin: auto;
+    }
+    label#agelabel {
+        margin-bottom: 65px;
+    }
+
+    select {
+        width: 100%;
+        /*
+        background-color: #4391e6;
+        */
+        background-color: #7abaff;
+         color: white;
+          font-size: 12px;
+          font-weight: 200;
+    }
+    .styled-select select {
+       background: transparent;
+       border-color: #8798AB;
+       font-size: 14px;
+       height: 29px;
+       padding: 5px; /* If you add too much padding here, the options won't show in IE */ 
+    }
+    .rounded {
+       -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+       border-radius: 20px;
+    }
+    .addclient .row {
+        padding-bottom: 65px;
+    }
+    .addclient .gender.row {
+            padding-bottom: 10px;
+    }
+    .int .intoption{
+        font-weight: 200;
+        color: #7abaff;
+    }
+    .searchclient .row {
+        padding-top: 0px;
+    }
+
+    .searchclient .formerror  {
+        height: 40px;
+    }
+    .searchclient .textinput label {
+        margin-bottom: 35px;
+    }
+    .profilemain{
+        margin: auto;
+    }
+    .profx .boxy {
+        margin-bottom: 40px;
+    }
+    .profile .boxy {
+        padding: 30px 45px;
+
+    }
+    .clientinfo .intro-text.text-center{
+            font-size: 1.75em;
+            font-weight: 600;
+            color: #7abaff;
+    }
+    .profile {
+        color: #f1f1f1; 
+    }
+    .activity {
+         color: #f1f1f1; 
+         text-align: center;
+    } 
+    .activity .intro-text{
+        color: #7abaff;
+    }
+    .profile .well {
+        background-color: transparent;
+    }
+    a.button6:hover  {
+        color: #f1f1f1;
+        text-decoration: none;
+    }
+    .boxy.packages {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .addpack h2 {
+        text-transform: none;
+        letter-spacing: 0px;
+    }
+    .addpack .boxy {
+        padding-top: 10px;
+    }
+    .addpack{
+        color: #f1f1f1;
+        text-transform: none;
+        font-family: "Carme", "Helvetica Neue",  Helvetica,Arial,sans-serif;
+    }
+    .addpack .boxy {
+        height: 725px;
+    }
+    .addpack .intro-text.ad span {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      font-family: "Space Mono", "Helvetica Neue", Helvetica,Arial,sans-serif;
+      letter-spacing: 1px;
+    }
+    .addpack select {
+        font-size: 1.2em;
+    }
+    .addpack .fieldx {
+         height: 70px;
+    }
+   
+    .addpack .submitPack {
+        position: absolute;
+        left: 70px;
+        top: 972px;
+        width: 1125px;
+        height: 40px;
+        background: transparent;
+        
+    }
+}
+ 
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
